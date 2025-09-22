@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="softwaretestingmaterial" thread-count='4' parallel='classes'>
+    <test name="testngTest">
+        <classes>
+            <class name="Activities.TestActivity1" />
+            <class name="Activities.TestActivity2" />
+            <class name="Activities.TestActivity3" />
+            <class name="Activities.TestActivity4Demoone" />
+            <class name="Activities.TestActivity4Demotwo" />
+            <class name="Activities.TestActivity5" />
+            <class name="Activities.TestActivity6" />
+            <class name="Activities.TestActivity7" />
+        </classes>
+    </test>
+</suite>
